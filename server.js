@@ -1,16 +1,16 @@
 const express = require('express')
 const app = express()
 const obj = {
-    // name: 'Flap',
-    // lastname: 'Flapiński',
-    // age: 26,
+    name: 'Flap',
+    lastname: 'Flapiński',
+    age: 26,
     family: [
         ['Opa', 'Oma', 'Ana', {rivals: 'none'}],
         ['Diana', 'Lana', 'Lena'],
         {units: 'metric'}
     ],
     stuff: {
-        cars: ['Audi', 'Vw', 'Kia'],
+        cars: ['Audi', 'Vw', { Kia: ['Sorento', 'Ceed', 'Stinger', ['2.0T', '2.2d', '3.3T']]}],
         pcs: ['Samsung', 'Siemens']
     }
 }
