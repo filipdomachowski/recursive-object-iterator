@@ -3,5 +3,5 @@
 recursive loop through object
 
 ----------------------------------------------------
-npm install
-npm start
+- npm install,
+- npm start
