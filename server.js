@@ -4,6 +4,7 @@ const obj = {
     name: 'Flap',
     lastname: 'Flapiński',
     age: 26,
+    array: ["one", 2, "three"],
     family: [
         ['Opa', 'Oma', 'Ana', {rivals: 'none'}],
         ['Diana', 'Lana', 'Lena'],
